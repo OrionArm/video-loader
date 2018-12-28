@@ -1,0 +1,16 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node script"
+  },
+  "bin": {
+    "egghead": "./script.js"
+  },
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "shelljs": "^0.8.3"
+  }
+}
