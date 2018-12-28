@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "video-loader",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "start": "node script"
   },
   "bin": {
-    "egghead": "./script.js"
+    "video-loader": "./script.js"
   },
   "dependencies": {
     "fast-csv": "^2.4.1",

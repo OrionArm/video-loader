@@ -60,7 +60,7 @@ const createDatabase = csvPath => {
   });
 };
 
-const createVideoDirectory = directory => `./egghead/${directory}/`;
+const createVideoDirectory = directory => `./loaded-videos/${directory}/`;
 const videoTitle = "%(autonumber)s-%(title)s.%(ext)s";
 const command = url =>
   `youtube-dl -i -o "${url}" -a list.txt --cookie ~/Documents/cookies.txt`;
